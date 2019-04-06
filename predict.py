@@ -23,5 +23,5 @@ while True:
         print('Male')
     
     print('')
-    print('The model is prediction that the {}\'s gender is {}% female and {}% male'.format(n,pred_prob[0][0]*100, pred_prob[0][1]*100))
+    print('The model is predicted that the {}\'s gender is {}% female and {}% male'.format(n,pred_prob[0][0]*100, pred_prob[0][1]*100))
     
