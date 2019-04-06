@@ -20,3 +20,5 @@ model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']
 print(model.summary())
 
 history = model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=2)
+
+model.save('data/model.h5')

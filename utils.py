@@ -9,7 +9,7 @@ def clean_name(name):
 
 def letter_to_number(letter):
     letter = letter.lower()
-    return ord(letter) - 97
+    return ord(letter)
 
 def name_to_numbers(name, max_length=25):
     ascii = []
